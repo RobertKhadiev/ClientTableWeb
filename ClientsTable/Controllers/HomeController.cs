@@ -19,23 +19,23 @@ namespace ClientsTable.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Ok();
         }
 
-        public IActionResult Table()
-        {
-            var Cities = db.Cities.ToList();
-            return View(Cities);
-        }
-
-        [HttpGet]
-        public IActionResult Buy(int? id)
-        {
-            if (id == null) return RedirectToAction("Index");
-            var st = "STRINGUS";
-            ViewBag.Smth = st;
-            return View();
-        }
+        // public IActionResult Table()
+        // {
+        //     var Cities = db.Cities.ToList();
+        //     return View(Cities);
+        // }
+        //
+        // [HttpGet]
+        // public IActionResult Buy(int? id)
+        // {
+        //     if (id == null) return RedirectToAction("Index");
+        //     var st = "STRINGUS";
+        //     ViewBag.Smth = st;
+        //     return View();
+        // }
 
         [HttpPost]
         public string AddClient(ClientEntity client)

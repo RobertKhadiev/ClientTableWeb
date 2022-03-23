@@ -1036,30 +1036,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Users\\rave9\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\source\\repos\\ClientsTable\\ClientsTable\\ClientsTable.csproj",
+      "projectUniqueName": "C:\\Projects\\ClientTableWeb\\ClientsTable\\ClientsTable.csproj",
       "projectName": "ClientsTable",
-      "projectPath": "C:\\Users\\1\\source\\repos\\ClientsTable\\ClientsTable\\ClientsTable.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\source\\repos\\ClientsTable\\ClientsTable\\obj\\",
+      "projectPath": "C:\\Projects\\ClientTableWeb\\ClientsTable\\ClientsTable.csproj",
+      "packagesPath": "C:\\Users\\rave9\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ClientTableWeb\\ClientsTable\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\rave9\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1113,6 +1111,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
